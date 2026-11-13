@@ -1,0 +1,95 @@
+{
+  "model": "gemini-3.5-flash-lite",
+  "summary": {
+    "cases": 1,
+    "status_accuracy": 1.0,
+    "macro_f1": 1.0,
+    "macro_f1_all_labels": 0.25,
+    "labels_present": [
+      "conflicting"
+    ],
+    "valid_quote_coverage_on_evidence_cases": 1.0,
+    "unsupported_cases_with_quotes": 0,
+    "per_class": {
+      "supported": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 0
+      },
+      "partially_supported": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 0
+      },
+      "unsupported": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 0
+      },
+      "conflicting": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 1
+      }
+    },
+    "confusion_matrix": {
+      "supported": {
+        "supported": 0,
+        "partially_supported": 0,
+        "unsupported": 0,
+        "conflicting": 0,
+        "error": 0
+      },
+      "partially_supported": {
+        "supported": 0,
+        "partially_supported": 0,
+        "unsupported": 0,
+        "conflicting": 0,
+        "error": 0
+      },
+      "unsupported": {
+        "supported": 0,
+        "partially_supported": 0,
+        "unsupported": 0,
+        "conflicting": 0,
+        "error": 0
+      },
+      "conflicting": {
+        "supported": 0,
+        "partially_supported": 0,
+        "unsupported": 0,
+        "conflicting": 1,
+        "error": 0
+      }
+    }
+  },
+  "results": [
+    {
+      "id": "CASE-21",
+      "expected_status": "conflicting",
+      "prediction": {
+        "status": "conflicting",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "quote": "The system specification lists a capacity of 10 terabytes."
+          },
+          {
+            "source_id": "S2",
+            "quote": "The revised technical sheet lists a capacity of 12 terabytes."
+          }
+        ],
+        "claim": "The fictional system has a 10 terabyte capacity.",
+        "source_ids": [
+          "S1",
+          "S2"
+        ]
+      }
+    }
+  ],
+  "verifier_prompt_version": "conflict-aware-v2"
+}

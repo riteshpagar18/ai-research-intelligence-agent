@@ -1,0 +1,401 @@
+[
+  {
+    "id": "CASE-01",
+    "synthetic": true,
+    "question": "Assess whether the available source evidence supports this claim: Project Cedar's pilot lasted 8 weeks.",
+    "claim": "Project Cedar's pilot lasted 8 weeks.",
+    "sources": [
+      {
+        "source_id": "S1",
+        "title": "Synthetic source 1A",
+        "url": "https://example.invalid/1a",
+        "content": "The fictional Project Cedar pilot lasted 8 weeks and involved a small engineering team."
+      }
+    ],
+    "expected_status": "supported"
+  },
+  {
+    "id": "CASE-02",
+    "synthetic": true,
+    "question": "Assess whether the available source evidence supports this claim: The Aurora survey included 46 participants.",
+    "claim": "The Aurora survey included 46 participants.",
+    "sources": [
+      {
+        "source_id": "S1",
+        "title": "Synthetic source 2A",
+        "url": "https://example.invalid/2a",
+        "content": "The Aurora survey included 46 participants and was conducted in a fictional research setting."
+      }
+    ],
+    "expected_status": "supported"
+  },
+  {
+    "id": "CASE-03",
+    "synthetic": true,
+    "question": "Assess whether the available source evidence supports this claim: The Bluebird device weighs 1.8 kilograms.",
+    "claim": "The Bluebird device weighs 1.8 kilograms.",
+    "sources": [
+      {
+        "source_id": "S1",
+        "title": "Synthetic source 3A",
+        "url": "https://example.invalid/3a",
+        "content": "According to the Bluebird product note, the device weighs 1.8 kilograms."
+      }
+    ],
+    "expected_status": "supported"
+  },
+  {
+    "id": "CASE-04",
+    "synthetic": true,
+    "question": "Assess whether the available source evidence supports this claim: Four of the five clinics completed the trial.",
+    "claim": "Four of the five clinics completed the trial.",
+    "sources": [
+      {
+        "source_id": "S1",
+        "title": "Synthetic source 4A",
+        "url": "https://example.invalid/4a",
+        "content": "Four of the five clinics completed the trial before the fictional review period ended."
+      }
+    ],
+    "expected_status": "supported"
+  },
+  {
+    "id": "CASE-05",
+    "synthetic": true,
+    "question": "Assess whether the available source evidence supports this claim: The Lumen report was released in May 2023.",
+    "claim": "The Lumen report was released in May 2023.",
+    "sources": [
+      {
+        "source_id": "S1",
+        "title": "Synthetic source 5A",
+        "url": "https://example.invalid/5a",
+        "content": "The Lumen report was released in May 2023 by the fictional Northshore Institute."
+      }
+    ],
+    "expected_status": "supported"
+  },
+  {
+    "id": "CASE-06",
+    "synthetic": true,
+    "question": "Assess whether the available source evidence supports this claim: The Cedar battery test lasted 12 hours.",
+    "claim": "The Cedar battery test lasted 12 hours.",
+    "sources": [
+      {
+        "source_id": "S1",
+        "title": "Synthetic source 6A",
+        "url": "https://example.invalid/6a",
+        "content": "In the Cedar battery test, the prototype ran continuously for 12 hours."
+      }
+    ],
+    "expected_status": "supported"
+  },
+  {
+    "id": "CASE-07",
+    "synthetic": true,
+    "question": "Assess whether the available source evidence supports this claim: The fictional pilot reduced task time by 31 percent.",
+    "claim": "The fictional pilot reduced task time by 31 percent.",
+    "sources": [
+      {
+        "source_id": "S1",
+        "title": "Synthetic source 7A",
+        "url": "https://example.invalid/7a",
+        "content": "The fictional pilot reduced task time by 31 percent compared with its baseline."
+      }
+    ],
+    "expected_status": "supported"
+  },
+  {
+    "id": "CASE-08",
+    "synthetic": true,
+    "question": "Assess whether the available source evidence supports this claim: Samples were stored at 4 degrees Celsius.",
+    "claim": "Samples were stored at 4 degrees Celsius.",
+    "sources": [
+      {
+        "source_id": "S1",
+        "title": "Synthetic source 8A",
+        "url": "https://example.invalid/8a",
+        "content": "All samples in the fictional study were stored at 4 degrees Celsius."
+      }
+    ],
+    "expected_status": "supported"
+  },
+  {
+    "id": "CASE-09",
+    "synthetic": true,
+    "question": "Assess whether the available source evidence supports this claim: The archive contains three public datasets.",
+    "claim": "The archive contains three public datasets.",
+    "sources": [
+      {
+        "source_id": "S1",
+        "title": "Synthetic source 9A",
+        "url": "https://example.invalid/9a",
+        "content": "The fictional archive currently contains three public datasets."
+      }
+    ],
+    "expected_status": "supported"
+  },
+  {
+    "id": "CASE-10",
+    "synthetic": true,
+    "question": "Assess whether the available source evidence supports this claim: Median response time was 2.4 seconds.",
+    "claim": "Median response time was 2.4 seconds.",
+    "sources": [
+      {
+        "source_id": "S1",
+        "title": "Synthetic source 10A",
+        "url": "https://example.invalid/10a",
+        "content": "The mock service recorded a median response time of 2.4 seconds during the test."
+      }
+    ],
+    "expected_status": "supported"
+  },
+  {
+    "id": "CASE-11",
+    "synthetic": true,
+    "question": "Assess whether the available source evidence supports this claim: Project Maple reduced energy use by 22 percent.",
+    "claim": "Project Maple reduced energy use by 22 percent.",
+    "sources": [
+      {
+        "source_id": "S1",
+        "title": "Synthetic source 11A",
+        "url": "https://example.invalid/11a",
+        "content": "The fictional Harbor team opened its west gallery in March and added two display rooms."
+      }
+    ],
+    "expected_status": "unsupported"
+  },
+  {
+    "id": "CASE-12",
+    "synthetic": true,
+    "question": "Assess whether the available source evidence supports this claim: The Atlas device is certified for underwater use.",
+    "claim": "The Atlas device is certified for underwater use.",
+    "sources": [
+      {
+        "source_id": "S1",
+        "title": "Synthetic source 12A",
+        "url": "https://example.invalid/12a",
+        "content": "The fictional Atlas device is available in gray and silver and ships in a paper box."
+      }
+    ],
+    "expected_status": "unsupported"
+  },
+  {
+    "id": "CASE-13",
+    "synthetic": true,
+    "question": "Assess whether the available source evidence supports this claim: The study followed 900 participants for five years.",
+    "claim": "The study followed 900 participants for five years.",
+    "sources": [
+      {
+        "source_id": "S1",
+        "title": "Synthetic source 13A",
+        "url": "https://example.invalid/13a",
+        "content": "The fictional study catalog lists its title, authors, and publication month."
+      }
+    ],
+    "expected_status": "unsupported"
+  },
+  {
+    "id": "CASE-14",
+    "synthetic": true,
+    "question": "Assess whether the available source evidence supports this claim: The River program improved graduation rates by 18 percent.",
+    "claim": "The River program improved graduation rates by 18 percent.",
+    "sources": [
+      {
+        "source_id": "S1",
+        "title": "Synthetic source 14A",
+        "url": "https://example.invalid/14a",
+        "content": "The fictional River program offers weekend tutoring and a summer reading group."
+      }
+    ],
+    "expected_status": "unsupported"
+  },
+  {
+    "id": "CASE-15",
+    "synthetic": true,
+    "question": "Assess whether the available source evidence supports this claim: The sensor operates accurately below minus 20 degrees.",
+    "claim": "The sensor operates accurately below minus 20 degrees.",
+    "sources": [
+      {
+        "source_id": "S1",
+        "title": "Synthetic source 15A",
+        "url": "https://example.invalid/15a",
+        "content": "The fictional sensor uses a blue status light and a rechargeable battery."
+      }
+    ],
+    "expected_status": "unsupported"
+  },
+  {
+    "id": "CASE-16",
+    "synthetic": true,
+    "question": "Assess whether the available source evidence supports this claim: The policy took effect on January 1, 2024.",
+    "claim": "The policy took effect on January 1, 2024.",
+    "sources": [
+      {
+        "source_id": "S1",
+        "title": "Synthetic source 16A",
+        "url": "https://example.invalid/16a",
+        "content": "The fictional policy memo describes staff responsibilities and office hours."
+      }
+    ],
+    "expected_status": "unsupported"
+  },
+  {
+    "id": "CASE-17",
+    "synthetic": true,
+    "question": "Assess whether the available source evidence supports this claim: The trial had no adverse events.",
+    "claim": "The trial had no adverse events.",
+    "sources": [
+      {
+        "source_id": "S1",
+        "title": "Synthetic source 17A",
+        "url": "https://example.invalid/17a",
+        "content": "The fictional trial summary describes recruitment and the order of study visits."
+      }
+    ],
+    "expected_status": "unsupported"
+  },
+  {
+    "id": "CASE-18",
+    "synthetic": true,
+    "question": "Assess whether the available source evidence supports this claim: The model reached 99 percent accuracy on the benchmark.",
+    "claim": "The model reached 99 percent accuracy on the benchmark.",
+    "sources": [
+      {
+        "source_id": "S1",
+        "title": "Synthetic source 18A",
+        "url": "https://example.invalid/18a",
+        "content": "The fictional benchmark page explains how to submit a result file."
+      }
+    ],
+    "expected_status": "unsupported"
+  },
+  {
+    "id": "CASE-19",
+    "synthetic": true,
+    "question": "Assess whether the available source evidence supports this claim: The fictional Orion test included 28 participants.",
+    "claim": "The fictional Orion test included 28 participants.",
+    "sources": [
+      {
+        "source_id": "S1",
+        "title": "Synthetic source 19A",
+        "url": "https://example.invalid/19a",
+        "content": "The Orion test report says 28 participants enrolled."
+      },
+      {
+        "source_id": "S2",
+        "title": "Synthetic source 19B",
+        "url": "https://example.invalid/19b",
+        "content": "A later Orion registry entry lists 34 participants for the same test."
+      }
+    ],
+    "expected_status": "conflicting"
+  },
+  {
+    "id": "CASE-20",
+    "synthetic": true,
+    "question": "Assess whether the available source evidence supports this claim: The fictional Delta trial began in April.",
+    "claim": "The fictional Delta trial began in April.",
+    "sources": [
+      {
+        "source_id": "S1",
+        "title": "Synthetic source 20A",
+        "url": "https://example.invalid/20a",
+        "content": "The Delta trial timeline states that enrollment began in April."
+      },
+      {
+        "source_id": "S2",
+        "title": "Synthetic source 20B",
+        "url": "https://example.invalid/20b",
+        "content": "The Delta trial update says the study began in June."
+      }
+    ],
+    "expected_status": "conflicting"
+  },
+  {
+    "id": "CASE-21",
+    "synthetic": true,
+    "question": "Assess whether the available source evidence supports this claim: The fictional system has a 10 terabyte capacity.",
+    "claim": "The fictional system has a 10 terabyte capacity.",
+    "sources": [
+      {
+        "source_id": "S1",
+        "title": "Synthetic source 21A",
+        "url": "https://example.invalid/21a",
+        "content": "The system specification lists a capacity of 10 terabytes."
+      },
+      {
+        "source_id": "S2",
+        "title": "Synthetic source 21B",
+        "url": "https://example.invalid/21b",
+        "content": "The revised technical sheet lists a capacity of 12 terabytes."
+      }
+    ],
+    "expected_status": "conflicting"
+  },
+  {
+    "id": "CASE-22",
+    "synthetic": true,
+    "question": "Assess whether the available source evidence supports this claim: The fictional review examined seven locations.",
+    "claim": "The fictional review examined seven locations.",
+    "sources": [
+      {
+        "source_id": "S1",
+        "title": "Synthetic source 22A",
+        "url": "https://example.invalid/22a",
+        "content": "The review methods section says seven locations were examined."
+      },
+      {
+        "source_id": "S2",
+        "title": "Synthetic source 22B",
+        "url": "https://example.invalid/22b",
+        "content": "The review appendix identifies nine locations in its final sample."
+      }
+    ],
+    "expected_status": "conflicting"
+  },
+  {
+    "id": "CASE-23",
+    "synthetic": true,
+    "question": "Assess whether the available source evidence supports this claim: The fictional Aspen pilot ran for six weeks and included 80 users.",
+    "claim": "The fictional Aspen pilot ran for six weeks and included 80 users.",
+    "sources": [
+      {
+        "source_id": "S1",
+        "title": "Synthetic source 23A",
+        "url": "https://example.invalid/23a",
+        "content": "The Aspen pilot ran for six weeks. The report does not state how many users took part."
+      }
+    ],
+    "expected_status": "partially_supported"
+  },
+  {
+    "id": "CASE-24",
+    "synthetic": true,
+    "question": "Assess whether the available source evidence supports this claim: The fictional package contains 12 items and costs 40 credits.",
+    "claim": "The fictional package contains 12 items and costs 40 credits.",
+    "sources": [
+      {
+        "source_id": "S1",
+        "title": "Synthetic source 24A",
+        "url": "https://example.invalid/24a",
+        "content": "The catalog lists 12 items in the package but gives no price."
+      }
+    ],
+    "expected_status": "partially_supported"
+  },
+  {
+    "id": "CASE-25",
+    "synthetic": true,
+    "question": "Assess whether the available source evidence supports this claim: The fictional survey reached 300 people and had a 70 percent response rate.",
+    "claim": "The fictional survey reached 300 people and had a 70 percent response rate.",
+    "sources": [
+      {
+        "source_id": "S1",
+        "title": "Synthetic source 25A",
+        "url": "https://example.invalid/25a",
+        "content": "The survey reached 300 people. Its response rate is not provided in the available note."
+      }
+    ],
+    "expected_status": "partially_supported"
+  }
+]

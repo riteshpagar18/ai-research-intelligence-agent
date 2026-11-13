@@ -1,0 +1,123 @@
+{
+  "model": "gemini-3.5-flash-lite",
+  "summary": {
+    "cases": 3,
+    "status_accuracy": 1.0,
+    "macro_f1": 1.0,
+    "macro_f1_all_labels": 0.25,
+    "labels_present": [
+      "supported"
+    ],
+    "valid_quote_coverage_on_evidence_cases": 1.0,
+    "unsupported_cases_with_quotes": 0,
+    "per_class": {
+      "supported": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 3
+      },
+      "partially_supported": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 0
+      },
+      "unsupported": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 0
+      },
+      "conflicting": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 0
+      }
+    },
+    "confusion_matrix": {
+      "supported": {
+        "supported": 3,
+        "partially_supported": 0,
+        "unsupported": 0,
+        "conflicting": 0,
+        "error": 0
+      },
+      "partially_supported": {
+        "supported": 0,
+        "partially_supported": 0,
+        "unsupported": 0,
+        "conflicting": 0,
+        "error": 0
+      },
+      "unsupported": {
+        "supported": 0,
+        "partially_supported": 0,
+        "unsupported": 0,
+        "conflicting": 0,
+        "error": 0
+      },
+      "conflicting": {
+        "supported": 0,
+        "partially_supported": 0,
+        "unsupported": 0,
+        "conflicting": 0,
+        "error": 0
+      }
+    }
+  },
+  "results": [
+    {
+      "id": "CASE-01",
+      "expected_status": "supported",
+      "prediction": {
+        "status": "supported",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "quote": "The fictional Project Cedar pilot lasted 8 weeks"
+          }
+        ],
+        "claim": "Project Cedar's pilot lasted 8 weeks.",
+        "source_ids": [
+          "S1"
+        ]
+      }
+    },
+    {
+      "id": "CASE-02",
+      "expected_status": "supported",
+      "prediction": {
+        "status": "supported",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "quote": "The Aurora survey included 46 participants"
+          }
+        ],
+        "claim": "The Aurora survey included 46 participants.",
+        "source_ids": [
+          "S1"
+        ]
+      }
+    },
+    {
+      "id": "CASE-03",
+      "expected_status": "supported",
+      "prediction": {
+        "status": "supported",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "quote": "the device weighs 1.8 kilograms."
+          }
+        ],
+        "claim": "The Bluebird device weighs 1.8 kilograms.",
+        "source_ids": [
+          "S1"
+        ]
+      }
+    }
+  ]
+}

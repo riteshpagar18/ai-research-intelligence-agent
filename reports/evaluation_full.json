@@ -1,0 +1,461 @@
+{
+  "model": "gemini-3.5-flash-lite",
+  "summary": {
+    "cases": 25,
+    "status_accuracy": 0.96,
+    "macro_f1": 0.9524,
+    "macro_f1_all_labels": 0.9524,
+    "labels_present": [
+      "supported",
+      "partially_supported",
+      "unsupported",
+      "conflicting"
+    ],
+    "valid_quote_coverage_on_evidence_cases": 1.0,
+    "unsupported_cases_with_quotes": 0,
+    "per_class": {
+      "supported": {
+        "precision": 0.9091,
+        "recall": 1.0,
+        "f1": 0.9524,
+        "support": 10
+      },
+      "partially_supported": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 3
+      },
+      "unsupported": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 8
+      },
+      "conflicting": {
+        "precision": 1.0,
+        "recall": 0.75,
+        "f1": 0.8571,
+        "support": 4
+      }
+    },
+    "confusion_matrix": {
+      "supported": {
+        "supported": 10,
+        "partially_supported": 0,
+        "unsupported": 0,
+        "conflicting": 0,
+        "error": 0
+      },
+      "partially_supported": {
+        "supported": 0,
+        "partially_supported": 3,
+        "unsupported": 0,
+        "conflicting": 0,
+        "error": 0
+      },
+      "unsupported": {
+        "supported": 0,
+        "partially_supported": 0,
+        "unsupported": 8,
+        "conflicting": 0,
+        "error": 0
+      },
+      "conflicting": {
+        "supported": 1,
+        "partially_supported": 0,
+        "unsupported": 0,
+        "conflicting": 3,
+        "error": 0
+      }
+    }
+  },
+  "results": [
+    {
+      "id": "CASE-01",
+      "expected_status": "supported",
+      "prediction": {
+        "status": "supported",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "quote": "The fictional Project Cedar pilot lasted 8 weeks"
+          }
+        ],
+        "claim": "Project Cedar's pilot lasted 8 weeks.",
+        "source_ids": [
+          "S1"
+        ]
+      }
+    },
+    {
+      "id": "CASE-02",
+      "expected_status": "supported",
+      "prediction": {
+        "status": "supported",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "quote": "The Aurora survey included 46 participants"
+          }
+        ],
+        "claim": "The Aurora survey included 46 participants.",
+        "source_ids": [
+          "S1"
+        ]
+      }
+    },
+    {
+      "id": "CASE-03",
+      "expected_status": "supported",
+      "prediction": {
+        "status": "supported",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "quote": "According to the Bluebird product note, the device weighs 1.8 kilograms."
+          }
+        ],
+        "claim": "The Bluebird device weighs 1.8 kilograms.",
+        "source_ids": [
+          "S1"
+        ]
+      }
+    },
+    {
+      "id": "CASE-04",
+      "expected_status": "supported",
+      "prediction": {
+        "status": "supported",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "quote": "Four of the five clinics completed the trial"
+          }
+        ],
+        "claim": "Four of the five clinics completed the trial.",
+        "source_ids": [
+          "S1"
+        ]
+      }
+    },
+    {
+      "id": "CASE-05",
+      "expected_status": "supported",
+      "prediction": {
+        "status": "supported",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "quote": "The Lumen report was released in May 2023 by the fictional Northshore Institute."
+          }
+        ],
+        "claim": "The Lumen report was released in May 2023.",
+        "source_ids": [
+          "S1"
+        ]
+      }
+    },
+    {
+      "id": "CASE-06",
+      "expected_status": "supported",
+      "prediction": {
+        "status": "supported",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "quote": "In the Cedar battery test, the prototype ran continuously for 12 hours."
+          }
+        ],
+        "claim": "The Cedar battery test lasted 12 hours.",
+        "source_ids": [
+          "S1"
+        ]
+      }
+    },
+    {
+      "id": "CASE-07",
+      "expected_status": "supported",
+      "prediction": {
+        "status": "supported",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "quote": "The fictional pilot reduced task time by 31 percent compared with its baseline."
+          }
+        ],
+        "claim": "The fictional pilot reduced task time by 31 percent.",
+        "source_ids": [
+          "S1"
+        ]
+      }
+    },
+    {
+      "id": "CASE-08",
+      "expected_status": "supported",
+      "prediction": {
+        "status": "supported",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "quote": "All samples in the fictional study were stored at 4 degrees Celsius."
+          }
+        ],
+        "claim": "Samples were stored at 4 degrees Celsius.",
+        "source_ids": [
+          "S1"
+        ]
+      }
+    },
+    {
+      "id": "CASE-09",
+      "expected_status": "supported",
+      "prediction": {
+        "status": "supported",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "quote": "The fictional archive currently contains three public datasets."
+          }
+        ],
+        "claim": "The archive contains three public datasets.",
+        "source_ids": [
+          "S1"
+        ]
+      }
+    },
+    {
+      "id": "CASE-10",
+      "expected_status": "supported",
+      "prediction": {
+        "status": "supported",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "quote": "median response time of 2.4 seconds"
+          }
+        ],
+        "claim": "Median response time was 2.4 seconds.",
+        "source_ids": [
+          "S1"
+        ]
+      }
+    },
+    {
+      "id": "CASE-11",
+      "expected_status": "unsupported",
+      "prediction": {
+        "status": "unsupported",
+        "evidence": [],
+        "claim": "Project Maple reduced energy use by 22 percent.",
+        "source_ids": []
+      }
+    },
+    {
+      "id": "CASE-12",
+      "expected_status": "unsupported",
+      "prediction": {
+        "status": "unsupported",
+        "evidence": [],
+        "claim": "The Atlas device is certified for underwater use.",
+        "source_ids": []
+      }
+    },
+    {
+      "id": "CASE-13",
+      "expected_status": "unsupported",
+      "prediction": {
+        "status": "unsupported",
+        "evidence": [],
+        "claim": "The study followed 900 participants for five years.",
+        "source_ids": []
+      }
+    },
+    {
+      "id": "CASE-14",
+      "expected_status": "unsupported",
+      "prediction": {
+        "status": "unsupported",
+        "evidence": [],
+        "claim": "The River program improved graduation rates by 18 percent.",
+        "source_ids": []
+      }
+    },
+    {
+      "id": "CASE-15",
+      "expected_status": "unsupported",
+      "prediction": {
+        "status": "unsupported",
+        "evidence": [],
+        "claim": "The sensor operates accurately below minus 20 degrees.",
+        "source_ids": []
+      }
+    },
+    {
+      "id": "CASE-16",
+      "expected_status": "unsupported",
+      "prediction": {
+        "status": "unsupported",
+        "evidence": [],
+        "claim": "The policy took effect on January 1, 2024.",
+        "source_ids": []
+      }
+    },
+    {
+      "id": "CASE-17",
+      "expected_status": "unsupported",
+      "prediction": {
+        "status": "unsupported",
+        "evidence": [],
+        "claim": "The trial had no adverse events.",
+        "source_ids": []
+      }
+    },
+    {
+      "id": "CASE-18",
+      "expected_status": "unsupported",
+      "prediction": {
+        "status": "unsupported",
+        "evidence": [],
+        "claim": "The model reached 99 percent accuracy on the benchmark.",
+        "source_ids": []
+      }
+    },
+    {
+      "id": "CASE-19",
+      "expected_status": "conflicting",
+      "prediction": {
+        "status": "conflicting",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "quote": "The Orion test report says 28 participants enrolled."
+          },
+          {
+            "source_id": "S2",
+            "quote": "A later Orion registry entry lists 34 participants for the same test."
+          }
+        ],
+        "claim": "The fictional Orion test included 28 participants.",
+        "source_ids": [
+          "S1",
+          "S2"
+        ]
+      }
+    },
+    {
+      "id": "CASE-20",
+      "expected_status": "conflicting",
+      "prediction": {
+        "status": "conflicting",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "quote": "The Delta trial timeline states that enrollment began in April."
+          },
+          {
+            "source_id": "S2",
+            "quote": "The Delta trial update says the study began in June."
+          }
+        ],
+        "claim": "The fictional Delta trial began in April.",
+        "source_ids": [
+          "S1",
+          "S2"
+        ]
+      }
+    },
+    {
+      "id": "CASE-21",
+      "expected_status": "conflicting",
+      "prediction": {
+        "status": "supported",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "quote": "The system specification lists a capacity of 10 terabytes."
+          }
+        ],
+        "claim": "The fictional system has a 10 terabyte capacity.",
+        "source_ids": [
+          "S1"
+        ]
+      }
+    },
+    {
+      "id": "CASE-22",
+      "expected_status": "conflicting",
+      "prediction": {
+        "status": "conflicting",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "quote": "seven locations were examined"
+          },
+          {
+            "source_id": "S2",
+            "quote": "nine locations in its final sample"
+          }
+        ],
+        "claim": "The fictional review examined seven locations.",
+        "source_ids": [
+          "S1",
+          "S2"
+        ]
+      }
+    },
+    {
+      "id": "CASE-23",
+      "expected_status": "partially_supported",
+      "prediction": {
+        "status": "partially_supported",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "quote": "The Aspen pilot ran for six weeks."
+          }
+        ],
+        "claim": "The fictional Aspen pilot ran for six weeks and included 80 users.",
+        "source_ids": [
+          "S1"
+        ]
+      }
+    },
+    {
+      "id": "CASE-24",
+      "expected_status": "partially_supported",
+      "prediction": {
+        "status": "partially_supported",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "quote": "The catalog lists 12 items in the package"
+          }
+        ],
+        "claim": "The fictional package contains 12 items and costs 40 credits.",
+        "source_ids": [
+          "S1"
+        ]
+      }
+    },
+    {
+      "id": "CASE-25",
+      "expected_status": "partially_supported",
+      "prediction": {
+        "status": "partially_supported",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "quote": "The survey reached 300 people."
+          }
+        ],
+        "claim": "The fictional survey reached 300 people and had a 70 percent response rate.",
+        "source_ids": [
+          "S1"
+        ]
+      }
+    }
+  ],
+  "verifier_prompt_version": "baseline-before-conflict-guidance",
+  "note": "This 25-case baseline was generated before the conflict-specific verifier prompt update. The missed conflict case was retested separately after the update."
+}
