@@ -1,5 +1,7 @@
 # AI Research & Intelligence Agent
 
+🚀 **Live Demo:** [AI Research & Intelligence Agent](https://ai-research-intelligence-agent-vmhfday4gprhkwnkr8jgd5.streamlit.app/)
+
 A Streamlit research assistant that turns a question into a documented research workflow. Gemini plans the search and assesses claims, Tavily finds web sources, and LangGraph coordinates the steps. Verified source passages are displayed alongside the claims they support, and reports can be downloaded as Markdown or PDF.
 
 ## Features
